@@ -2,8 +2,8 @@
 
 # Processing3 Kaleidoscope
 
-A Processing utility to apply several mirrors to a single PImage.
-Requires nl.kw.nl.processing.mirror.*
+A Processing utility to apply several mirrors to a single PImage,
+thus creating a kaleidoscope. Requires nl.kw.nl.processing.mirror.*
 
 `scope.setImage()` sets the input image and `scope.getOutput()`
 returns the output. 
