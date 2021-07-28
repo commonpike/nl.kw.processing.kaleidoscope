@@ -20,7 +20,7 @@ on the setup of your mirrors, 3 iterations is often enough.
 Set it using `setIterations()`.
 
 To see what you can do with this, watch some of the animations at
-https://www.instagram.com/studio.pike
+<https://www.instagram.com/studio.pike>
 
 ## Installation
 
