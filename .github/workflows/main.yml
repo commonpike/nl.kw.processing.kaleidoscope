@@ -16,7 +16,7 @@ on:
 env:
     COREURL: https://repo1.maven.org/maven2/org/processing/core/3.3.7/core-3.3.7.jar
     COREJAR: tmp/core.jar
-    LIBNAME: Mirror
+    LIBNAME: Kaleidoscope
 
 # A workflow run is made up of one or more jobs that can 
 # run sequentially or in parallel
