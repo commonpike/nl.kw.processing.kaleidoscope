@@ -1,6 +1,7 @@
 202107*pike
 
 # Processing3 Kaleidoscope
+<https://commonpike.github.io/nl.kw.processing.kaleidoscope/>
 
 A Processing utility to apply several mirrors to a single PImage,
 thus creating a kaleidoscope. Requires nl.kw.nl.processing.mirror.*
@@ -17,6 +18,9 @@ A real kaleidoscope has an infinite number of iterations (of
 mirages of mirages), but your PC has limited time. Depending 
 on the setup of your mirrors, 3 iterations is often enough.
 Set it using `setIterations()`.
+
+To see what you can do with this, watch some of the animations at
+https://www.instagram.com/studio.pike
 
 ## Installation
 
