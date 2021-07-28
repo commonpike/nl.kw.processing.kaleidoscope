@@ -16,6 +16,9 @@ on:
 env:
     COREURL: https://repo1.maven.org/maven2/org/processing/core/3.3.7/core-3.3.7.jar
     COREJAR: tmp/core.jar
+    MIRRORURL: https://commonpike.github.io/nl.kw.processing.mirror/library/Mirror.jar
+    MIRRORJAR: tmp/mirror.jar
+    CLASSPATH: tmp
     LIBNAME: Kaleidoscope
 
 # A workflow run is made up of one or more jobs that can 
@@ -36,6 +39,10 @@ jobs:
         run: |
           mkdir -p `dirname $COREJAR`
           curl $COREURL -o $COREJAR
+      - name: Download Mirror.jar
+        run: |
+          mkdir -p `dirname $MIRRORJAR`
+          curl $MIRRORURL -o $MIRRORJAR
       - name: Compile
         run: |
           bin/compile.sh
