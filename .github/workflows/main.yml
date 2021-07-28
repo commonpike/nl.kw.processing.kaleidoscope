@@ -18,7 +18,7 @@ env:
     COREJAR: tmp/core.jar
     MIRRORURL: https://commonpike.github.io/nl.kw.processing.mirror/library/Mirror.jar
     MIRRORJAR: tmp/mirror.jar
-    CLASSPATH: tmp
+    CLASSPATH: tmp/mirror.jar
     LIBNAME: Kaleidoscope
 
 # A workflow run is made up of one or more jobs that can 
@@ -43,6 +43,7 @@ jobs:
         run: |
           mkdir -p `dirname $MIRRORJAR`
           curl $MIRRORURL -o $MIRRORJAR
+          ls tmp
       - name: Compile
         run: |
           bin/compile.sh
