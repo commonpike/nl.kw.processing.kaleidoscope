@@ -19,6 +19,9 @@ mirages of mirages), but your PC has limited time. Depending
 on the setup of your mirrors, 3 iterations is often enough.
 Set it using `setIterations()`.
 
+For the full reference, see 
+<https://commonpike.github.io/nl.kw.processing.kaleidoscope/reference/>
+
 To see what you can do with this, watch some of the animations at
 <https://www.instagram.com/studio.pike>
 
