@@ -4,7 +4,7 @@
 <https://commonpike.github.io/nl.kw.processing.kaleidoscope/>
 
 A Processing utility to apply several mirrors to a single PImage,
-thus creating a kaleidoscope. Requires nl.kw.nl.processing.mirror.*
+thus creating a kaleidoscope. Requires nl.kw.processing.mirror.*
 
 `scope.setImage()` sets the input image and `scope.getOutput()`
 returns the output. 
